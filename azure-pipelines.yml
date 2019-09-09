@@ -26,5 +26,5 @@ steps:
     azureSubscription: 'Pay-As-You-Go(4fd61e34-3993-4257-95de-1b6b0182c8c5)'
     appType: 'webAppLinux'
     WebAppName: 'compomentis-pipeline-test'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.war'
     RuntimeStack: 'JAVA|8-jre8'
